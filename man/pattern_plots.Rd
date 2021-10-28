@@ -21,7 +21,7 @@ pattern_plots(data, meta, low = NA, high = NA, Condition = "Condition_1")
 function plots multiple plots, class - plots
 }
 \description{
-pattern_plots function uses a subsetted pattern data from the function pattern_search. The function plots distribution plots as well as a selected set of genes and how they changed patterns.
+pattern_plots function uses a subsetted pattern data from the function pattern_search. The function plots distribution plots as well as a selected set of genes and how they changed patterns. NOTE: if there are too many genes (>300), then individual gene expression plots will not be full because there is not enough colours in a palette to depict them all; in such a case, the function's violin plot can be used to assess the overall distribution and then the function should be repeated for filtered gene sets of interest to inspect individual expression values for each gene.
 }
 \examples{
 \dontrun{

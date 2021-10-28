@@ -316,7 +316,7 @@ This analysis can be followed by *pattern_plots* which allows to explore distrib
 <br>
 <br>
 The outputs allow to assess how genes distribute in a subset for different conditions and how the individual gene values vary in the selected subgroup. 
-
+Please note, if there are too many genes (>300), then individual gene expression plots will not be full because there is not enough colours in a palette to depict them all; in such a case, the function's violin plot can be used to assess the overall distribution and then the function should be repeated for filtered gene sets of interest to inspect individual expression values for each gene.
 
 <br>
 <br>
@@ -454,7 +454,7 @@ The package has the following dependencies: ggplot2,mclust,gtools,tidyr,pheatmap
 Please note that plotly is used to build interactive plots which will appear on the Viewer tab in RStudio.
 <br>
 <br>
-Version: v1.1.5
+Version: v1.1.7
 <br>
 <br>
 Github pages: https://github.com/Algorithm379/Packages/ and https://github.com/AusteKan/OmicInt

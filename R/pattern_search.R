@@ -45,7 +45,7 @@ pattern_search<-function(data, meta, Condition="Condition_1"){
 
 
   #access data
-  data<-utils::read.csv(data, header=TRUE,row.names = 1)
+  data<-utils::read.csv(data, header=TRUE)
   meta<-utils::read.csv(meta, header=TRUE)
 
   #select and rename to avoid conflicts when variables are passed dynamically

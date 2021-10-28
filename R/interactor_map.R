@@ -103,7 +103,7 @@ interactor_map<-function(data){
   colors <- col_vector[1:nlevels(as.factor(data$"Class"))]
 
   plot(undirected_network,edge.arrow.size=0.2, edge.curved=0.3,vertex.size=6,edge.color="red", vertex.label.cex=0.6, vertex.color=colors)
-  graphics::legend("topleft",legend=levels(as.factor(data$"Class")), col = colors,  pch=15,cex=0.7)
+  graphics::legend("topleft",legend=levels(as.factor(data$"Class")), col = colors,  pch=10,cex=0.5)
 
 
 
